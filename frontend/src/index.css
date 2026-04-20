@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body;
+  }
+}
+
+.glass-panel {
+  background: rgba(251, 251, 226, 0.75);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.hero-gradient {
+  background: linear-gradient(135deg, #004e34 0%, #006847 100%);
+}
